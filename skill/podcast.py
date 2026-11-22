@@ -441,14 +441,20 @@ def wait_pages(expect, timeout=360):
     return False, n
 
 
-def check_media(url):
-    try:
-        req = urllib.request.Request(url, headers={"Range": "bytes=0-0",
-                                                   "User-Agent": "podcast-check"})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            return r.status, r.headers.get("Content-Type", "")
-    except Exception as e:
-        return 0, str(e)[:100]
+def check_media(url, retries=3):
+    """Range 探测。新文件在 jsDelivr 上首次请求需回源预热，可能超时，故重试。"""
+    last = (0, "timeout")
+    for i in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"Range": "bytes=0-0",
+                                                       "User-Agent": "podcast-check"})
+            with urllib.request.urlopen(req, timeout=45) as r:
+                return r.status, r.headers.get("Content-Type", "")
+        except Exception as e:
+            last = (0, str(e)[:100])
+            if i < retries - 1:
+                time.sleep(5)
+    return last
 
 
 # ==================== 主流程 ====================
