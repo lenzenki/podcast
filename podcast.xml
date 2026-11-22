@@ -5,8 +5,8 @@
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>清醒地活</title>
-    <link>https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/</link>
-    <atom:link href="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/podcast.xml" rel="self" type="application/rss+xml"/>
+    <link>https://lenzenki.github.io/podcast/</link>
+    <atom:link href="https://lenzenki.github.io/podcast/podcast.xml" rel="self" type="application/rss+xml"/>
     <language>zh-cn</language>
     <description>关于认知偏差与日常决策的短播客</description>
     <itunes:author>小播</itunes:author>
@@ -18,11 +18,22 @@
     <image>
       <url>https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/covers/cover.jpg</url>
       <title>清醒地活</title>
-      <link>https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/</link>
+      <link>https://lenzenki.github.io/podcast/</link>
     </image>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>false</itunes:explicit>
-    <!-- probe 20261122192702 --><lastBuildDate>Sun, 22 Nov 2026 10:49:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 11:45:52 +0000</lastBuildDate>
+    <item>
+      <title>第4期 把重复的事交给机器之前</title>
+      <description>第4期 把重复的事交给机器之前（全文约 363 字）</description>
+      <itunes:summary>第4期 把重复的事交给机器之前（全文约 363 字）</itunes:summary>
+      <enclosure url="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/audio/ep04.mp3" length="950173" type="audio/mpeg"/>
+      <guid isPermaLink="false">清醒地活-ep04-79</guid>
+      <pubDate>Sun, 22 Nov 2026 11:45:52 +0000</pubDate>
+      <itunes:duration>79</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>第3期 一条链接为什么值得较真</title>
       <description>关于认知偏差与日常决策的短播客（全文约 441 字）</description>
