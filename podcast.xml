@@ -22,7 +22,18 @@
     </image>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>false</itunes:explicit>
-    <lastBuildDate>Sun, 22 Nov 2026 12:32:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:38:19 +0000</lastBuildDate>
+    <item>
+      <title>第7期 冷启动验证</title>
+      <description>全新环境零依赖，只靠一个网址发布成功</description>
+      <itunes:summary>全新环境零依赖，只靠一个网址发布成功</itunes:summary>
+      <enclosure url="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/audio/ep07.mp3" length="243997" type="audio/mpeg"/>
+      <guid isPermaLink="false">清醒地活-ep07-20</guid>
+      <pubDate>Sun, 22 Nov 2026 12:38:19 +0000</pubDate>
+      <itunes:duration>20</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>第6期 自动化链路测试</title>
       <description>验证：全新沙箱无需本地依赖即可发布</description>
