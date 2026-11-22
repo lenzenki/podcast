@@ -21,16 +21,14 @@ import hashlib
 
 SOURCES = [
     "https://lenzenki.github.io/podcast/skill/podcast.py",              # Pages，最快
-    "https://raw.githubusercontent.com/lenzenki/podcast/main/skill/podcast.py",
     "https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/skill/podcast.py",
-    "https://github.moeyy.xyz/https://raw.githubusercontent.com/lenzenki/podcast/main/skill/podcast.py",
-    "https://gh-proxy.com/https://raw.githubusercontent.com/lenzenki/podcast/main/skill/podcast.py",
+    "https://raw.githubusercontent.com/lenzenki/podcast/main/skill/podcast.py",
 ]
 
 # 自举入口自身的镜像（供 curl 拉不到 Pages 时手动降级）
 BOOTSTRAP_MIRRORS = [
-    "https://raw.githubusercontent.com/lenzenki/podcast/main/skill/bootstrap.py",
     "https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/skill/bootstrap.py",
+    "https://raw.githubusercontent.com/lenzenki/podcast/main/skill/bootstrap.py",
 ]
 
 LOCAL_CANDIDATES = [
