@@ -22,7 +22,18 @@
     </image>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>false</itunes:explicit>
-    <lastBuildDate>Sun, 22 Nov 2026 11:45:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:16:35 +0000</lastBuildDate>
+    <item>
+      <title>第5期 为什么你总觉得时间不够用</title>
+      <description>时间碎片税、时间记账，以及一个不太受欢迎的事实：你不是时间不够，是想做的太多。</description>
+      <itunes:summary>时间碎片税、时间记账，以及一个不太受欢迎的事实：你不是时间不够，是想做的太多。</itunes:summary>
+      <enclosure url="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/audio/ep05.mp3" length="1615741" type="audio/mpeg"/>
+      <guid isPermaLink="false">清醒地活-ep05-134</guid>
+      <pubDate>Sun, 22 Nov 2026 12:16:35 +0000</pubDate>
+      <itunes:duration>134</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>第4期 把重复的事交给机器之前</title>
       <description>第4期 把重复的事交给机器之前（全文约 363 字）</description>
