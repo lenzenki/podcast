@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>清醒地活</title>
+    <link>https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/</link>
+    <atom:link href="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/podcast.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-cn</language>
+    <description>关于认知偏差与日常决策的短播客</description>
+    <itunes:author>小播</itunes:author>
+    <itunes:owner>
+      <itunes:name>小播</itunes:name>
+      <itunes:email>pod@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/covers/cover.jpg"/>
+    <image>
+      <url>https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/covers/cover.jpg</url>
+      <title>清醒地活</title>
+      <link>https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/</link>
+    </image>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:explicit>false</itunes:explicit>
+    <lastBuildDate>Sun, 22 Nov 2026 10:42:28 +0000</lastBuildDate>
+    <item>
+      <title>第1期 为什么我们总是高估自己的一天</title>
+      <description>关于认知偏差与日常决策的短播客（全文约 711 字）</description>
+      <itunes:summary>关于认知偏差与日常决策的短播客（全文约 711 字）</itunes:summary>
+      <enclosure url="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/audio/ep01.mp3" length="1795165" type="audio/mpeg"/>
+      <guid isPermaLink="false">清醒地活-ep01-149</guid>
+      <pubDate>Sun, 22 Nov 2026 10:42:28 +0000</pubDate>
+      <itunes:duration>149</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>第2期 为什么清单比计划更管用</title>
+      <description>关于认知偏差与日常决策的短播客（全文约 291 字）</description>
+      <itunes:summary>关于认知偏差与日常决策的短播客（全文约 291 字）</itunes:summary>
+      <enclosure url="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/audio/ep02.mp3" length="721213" type="audio/mpeg"/>
+      <guid isPermaLink="false">清醒地活-ep02-60</guid>
+      <pubDate>Sun, 22 Nov 2026 10:11:02 +0000</pubDate>
+      <itunes:duration>60</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
