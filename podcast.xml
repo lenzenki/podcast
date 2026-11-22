@@ -22,7 +22,18 @@
     </image>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>false</itunes:explicit>
-    <lastBuildDate>Sun, 22 Nov 2026 10:48:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 10:49:53 +0000</lastBuildDate>
+    <item>
+      <title>第3期 一条链接为什么值得较真</title>
+      <description>关于认知偏差与日常决策的短播客（全文约 441 字）</description>
+      <itunes:summary>关于认知偏差与日常决策的短播客（全文约 441 字）</itunes:summary>
+      <enclosure url="https://cdn.jsdelivr.net/gh/lenzenki/podcast@main/audio/ep03.mp3" length="1189213" type="audio/mpeg"/>
+      <guid isPermaLink="false">清醒地活-ep03-99</guid>
+      <pubDate>Sun, 22 Nov 2026 10:49:53 +0000</pubDate>
+      <itunes:duration>99</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>第1期 为什么我们总是高估自己的一天</title>
       <description>关于认知偏差与日常决策的短播客（全文约 711 字）</description>
